@@ -1,4 +1,4 @@
-mail-notifier
+mail-watcher
 =============
 
 > Notify your nodejs scripts of incoming imap mail.
@@ -12,7 +12,7 @@ synopsis
 Start listening new mails :
 
 ```javascript
-const notifier = require('mail-notifier');
+const notifier = require('mail-watcher');
 
 const imap = {
   user: "yourimapuser",
@@ -43,7 +43,7 @@ n.on('end', () => n.start()) // session closed
 installation
 ------------
 
-    $ npm install mail-notifier
+    $ npm install mail-watcher
 
 API
 ===
