@@ -1,6 +1,6 @@
 {
-  "name": "mail-notifier",
-  "description": "Nodejs library to get notified on new incoming email.",
+  "name": "mail-watcher",
+  "description": "Nodejs library watch inbox email to get notified on new incoming email.",
   "keywords": [
     "imap",
     "mail",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jcreigno/nodejs-mail-notifier.git"
+    "url": "git://github.com/inteliti/nodejs-mail-watcher.git"
   },
   "dependencies": {
     "async": "^2.5.0",
